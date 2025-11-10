@@ -2,7 +2,7 @@ import os
 
 from glob import glob
 
-path2lmp = "lmp"
+path2lmp = "lammps"
 cores = 2
 
 run_dirs = glob("./T_*/replica_*")
